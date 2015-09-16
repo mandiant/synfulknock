@@ -13,7 +13,26 @@ These tools will hopefully help you get a head start towards discovering and era
 ## Installation
 
 Please see readme files in each directory.<br>
-**Note:  The NSE script was tested on a Kali 2.0 VM--other distros may have strange dependency issues**
+**Note:  The NSE script was tested on a Kali 2.0 & Ubuntu 15.04 VM--other distros may have strange dependency issues**
+
+### Kali 2.0 ###
+Nothing special required
+
+cp synfulknock.nse /usr/share/nmap/scripts/<br>
+cp packet2.lua /usr/share/nmap/nselib/<br>
+
+### 64-bit Ubuntu 15.04
+
+wget https://nmap.org/dist/nmap-6.49BETA4-1.x86_64.rpm<br>
+apt-get install alien<br>
+alien nmap-6.49BETA4-1.x86_64.rpm<br>
+dpkg --install nmap_6.49BETA4-2_amd64.deb<br>
+
+apt-get install subversion<br>
+ln -s /usr/lib/x86_64-linux-gnu/libsvn_client-1.so.1 /usr/lib/libsvn_client-1.so.0<br>
+
+cp synfulknock.nse /usr/share/nmap/scripts/<br>
+cp packet2.lua /usr/share/nmap/nselib/<br>
 
 ## Contributions
 
