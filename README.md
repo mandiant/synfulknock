@@ -13,6 +13,7 @@ These tools will hopefully help you get a head start towards discovering and era
 ## Installation
 
 Please see readme files in each directory.
+**Note:  The NSE script was tested on a Kali 2.0 VM--other distros may have strange dependency issues**
 
 ## Contributions
 
