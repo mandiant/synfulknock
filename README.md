@@ -26,14 +26,14 @@ The size of the network will determine which tool is most appropriate, however b
 ### NSE script
 ESTIMATED WORST-CASE SPEED (THIS FACTORS IN HIGH UNUSED IP SPACE)<br>
 
-Class C - 256 IP addresses (4 hosts up) - scanned in 2.28 seconds<br>
-nmap -sS -PN -n -T4 -p 80 --script=”SYNfulKnock” 10.1.1.1/24<br>
+Class C - 256 IP addresses - Estimated scan time = 2.28 seconds<br>
+nmap -sS -PN -n -T4 -p 80 --script="SYNfulKnock" 10.1.1.1/24<br>
 
-Class B - 65536 IP addresses (4 hosts up) - scanned in 2557.50 seconds (42 min)<br>
-nmap -sS -PN -n -T4 -p 80 --script=”SYNfulKnock” 10.1.1.1/16<br>
+Class B - 65536 IP addresses - Estimated scan time = 2557.50 seconds (42 min)<br>
+nmap -sS -PN -n -T4 -p 80 --script="SYNfulKnock" 10.1.1.1/16<br>
 
 Class A - 16,777,216 IP addresses - Estimated scan time = 10,752 minutes (179 hours) = 7 days<br>
-nmap -sS -PN -n -T4 -p 80 --script=”SYNfulKnock” 10.1.1.1/8<br>
+nmap -sS -PN -n -T4 -p 80 --script="SYNfulKnock" 10.1.1.1/8<br>
 
 ### Python script
 Class C - 256 IP addresses (4 hosts up) - 59.26 seconds
