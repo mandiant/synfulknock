@@ -39,6 +39,28 @@ nmap -sS -PN -n -T4 -p 80 --script="SYNfulKnock" 10.1.1.1/8<br>
 ### Python script
 Class C - 256 IP addresses (4 hosts up) - 59.26 seconds
 
+## Sample Syntax and Output
+
+## NSE script
+nmap -sS -PN -n -T4 -p 80 --script="SYNfulKnock" 10.1.1.1/24
+
+-- | SYNfulKnock:<br>
+-- | seq = 0x7528092b<br>
+-- | ack = 0x75341b69<br>
+-- | diff = 0xc123e<br>
+-- | Result:  Handshake confirmed.  Checking flags.<br>
+-- | TCP flags: 2 04 05 b4 1 01 04 02 1 03 03 05<br>
+-- |_Result:  Flags match.  Confirmed infected!<br>
+
+
+### Python script
+python ./trigger_scanner_sniff.py -d 10.1.1.1/10.1.1.2<br>
+2015-07-14 12:59:02,760 190 INFO    Sniffer daemon started<br>
+2015-07-14 12:59:02,761 218 INFO    Sending 2 syn packets with 10 threads<br>
+2015-07-14 12:59:03,188 110 INFO    10.1.1.1:80 - Found implant seq: 667f6e09 ack: 66735bcd<br>
+2015-07-14 12:59:03,190 225 INFO    Waiting to complete send<br>
+2015-07-14 12:59:03,190 227 INFO    All packets sent<br>
+
 ## Authors
 
 NSE script - Tony Lee<br>
