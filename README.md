@@ -16,12 +16,12 @@ Please see readme files in each directory.
 
 ## Contributions
 
-This is on-going research.  If you would like to contribute please email us at:  synfulknock [at] fireeye.com
+This research is ongoing, but if you would like to contribute please email us at:  synfulknock [at] fireeye.com
 
 ## Speed
 
 The nmap NSE script is faster than the python script, but requires an additional NSE library (included)<br>
-The size of the network will detemine which tool is most appropriate, however both can be used for sanity checks.
+The size of the network will determine which tool is most appropriate, however both can be used for sanity checks.
 
 ### NSE script
 ESTIMATED WORST-CASE SPEED (THIS FACTORS IN HIGH UNUSED IP SPACE)<br>
