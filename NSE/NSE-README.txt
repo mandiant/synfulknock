@@ -5,11 +5,9 @@
 
 
 # Setup #
-Place the .nse file here:
-/usr/share/nmap/scripts/
-
-Place the packet2.lua file here:
-/usr/share/nmap/nselib/
+cp synfulknock.nse /usr/share/nmap/scripts/
+cp synfulknock.nse /usr/share/nmap/scripts/SYNfulKnock.nse
+cp packet2.lua /usr/share/nmap/nselib/
 
 
 
