@@ -19,7 +19,7 @@ Please see readme files in each directory.<br>
 Nothing special required
 
 cp synfulknock.nse /usr/share/nmap/scripts/<br>
-cp synfulknock.nse /usr/share/nmap/scripts/SYNFulKnock<br>
+cp synfulknock.nse /usr/share/nmap/scripts/SYNfulKnock.nse<br>
 cp packet2.lua /usr/share/nmap/nselib/<br>
 
 ### 64-bit Ubuntu 15.04
@@ -33,7 +33,7 @@ apt-get install subversion<br>
 ln -s /usr/lib/x86_64-linux-gnu/libsvn_client-1.so.1 /usr/lib/libsvn_client-1.so.0<br>
 
 cp synfulknock.nse /usr/share/nmap/scripts/<br>
-cp synfulknock.nse /usr/share/nmap/scripts/SYNFulKnock<br>
+cp synfulknock.nse /usr/share/nmap/scripts/SYNfulKnock.nse<br>
 cp packet2.lua /usr/share/nmap/nselib/<br>
 
 ## Contributions
