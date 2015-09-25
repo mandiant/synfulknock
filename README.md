@@ -13,10 +13,22 @@ These tools will hopefully help you get a head start towards discovering and era
 ## Installation
 
 Please see readme files in each directory.<br>
-**Note:  The NSE script was tested on a Kali 2.0 & Ubuntu 15.04 VM--other distros may have strange dependency issues<br>
-Be careful of script name case sensitvity.  In the articles, they were all changed to mixed-case.  The copy command below should account for that.**
+**Note:**
+- The NSE script was tested on a Kali 1.1.0 & Ubuntu 15.04 VM--other distros may have strange dependency issues<br>
+- Be careful of script name case sensitvity.  In the articles, they were all changed to mixed-case.  The copy command below should account for that.
+- If you have issues with one script, try the other
+- If you confirm an infection with one script, validate using the other
+- The scripts require root or sudo privileges
+- Try Kali 1.1.0 first, it seems to work the best
 
-### Kali 2.0 ###
+### Kali 1.1.0 (nmap 6.47) ###
+Nothing special required
+
+cp synfulknock.nse /usr/share/nmap/scripts/<br>
+cp synfulknock.nse /usr/share/nmap/scripts/SYNfulKnock.nse<br>
+cp packet2.lua /usr/share/nmap/nselib/<br>
+
+### Kali 2.0 (nmap 6.49 BETA)###
 Nothing special required
 
 cp synfulknock.nse /usr/share/nmap/scripts/<br>
