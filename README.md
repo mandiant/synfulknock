@@ -10,6 +10,12 @@ https://www2.fireeye.com/rs/848-DID-242/images/rpt-synful-knock.pdf
 
 These tools will hopefully help you get a head start towards discovering and eradicating the Cisco implant from your environment.  We publish these with no warranty or guarantee.
 
+## Download
+
+There are a few possibilities here, but the most popular are:
+ - Download the zip file
+ - Use git:  git clone https://github.com/fireeye/synfulknock.git
+
 ## Installation
 
 Please see readme files in each directory.<br>
